@@ -5,25 +5,24 @@
 
 
 \usepackage[orientation=portrait]{beamerposter}
-\usepackage{textpos}
-
+\usepackage{verbatim}
+\usepackage{eulervm}
 \usepackage{fontspec}
 \setsansfont{Futura}
-
-\usetheme{Berlin}      % or try Darmstadt, Madrid, Warsaw, ...
+\usepackage[absolute, overlay]{textpos}
+\usetheme{Berlin}     % or try Darmstadt, Madrid, Warsaw, ...
 \usecolortheme{rose} % or try albatross, beaver, crane, ...
 %\usefonttheme{serif}  % or try serif, structurebold, ...
 \setbeamertemplate{navigation symbols}{}
 \setbeamertemplate{caption}[numbered]
 
-
 \renewcommand{\maketitle}{%
 	\begin{center}%
-		\Huge\inserttitle\\[5mm]%
+		\Huge\inserttitle\\[7mm]%
 		\Large\insertauthor\\[5mm]%
 		\Large\insertinstitute%
 	\end{center}%
-	\vspace*{-1ex}%
+	\vspace*{-2ex}%
 }
 
 \geometry{
@@ -39,21 +38,24 @@
 % beamer definitions
 
 \makeatletter
-\definecolor{lightblue}{RGB}{73,151,208}
-\definecolor{crimson}{RGB}{218,61,73}
+\definecolor{lightgray}{RGB}{210,210,210}
+\definecolor{crimson}{RGB}{205,60,83}
+\definecolor{clay}{RGB}{247,245,245}
 
-\setbeamercolor{normal text}{fg=black,bg=white}
+\setbeamercolor{normal text}{fg=black,bg=clay}
 \setbeamercolor{alerted text}{fg=crimson}
 \setbeamercolor{example text}{fg=crimson!50!black}
 
-\setbeamercolor{structure}{fg=lightblue}
+\setbeamercolor{structure}{fg=crimson!30!black, bg=crimson!90!black}
 
 \setbeamercolor{background canvas}{parent=normal text}
 \setbeamercolor{background}{parent=background canvas}
 
-\setbeamercolor{palette primary}{fg=lightblue!40!white,bg=crimson!70!black}
-\setbeamercolor{palette secondary}{use=structure,fg=structure.fg!100!green}
-\setbeamercolor{palette tertiary}{use=structure,fg=structure.fg!100!green} 
+\setbeamercolor{palette primary}{fg=clay, bg=crimson!70!clay}
+\setbeamercolor{palette secondary}{use=structure,fg=structure.fg!50!white, bg=crimson}
+\setbeamercolor{palette tertiary}{use=structure,fg=structure.fg!0!white, bg=crimson!50!white} 
+
+
 \makeatother
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -69,6 +71,10 @@
 	\begin{frame}{\maketitle}
 		\begin{columns}
 			\begin{column}{.45\textwidth}
+				\begin{exampleblock}{Abstract}
+					    This paper investigates computational methods and presents a computational framework for simulating non-local evolution of two-qubit systems. This evolution may then easily be combined with finite local operations to give control of near-arbitrary precision. Current research has focused on developing the theoretical background which we hope to computationally implement. We will characterize how useful operators (particularly the $CNOT$ gate) are generated in this process, and they will be approximated and performed computationally in optimal time utilizing a adaptive-algorithm approach. We will also analyze the non-local piece of the system Hamiltonian, including determining experimental means of generating it.  Particularly, we will be evaluating its action on the Poincar\'{e}-Bloch-Sphere.
+				\end{exampleblock}
+				\vspace{1em}
 				\begin{exampleblock}{Background}
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id ipsum non justo tincidunt gravida. Maecenas vitae turpis in quam volutpat accumsan. Ut placerat neque at enim ultricies, sit amet vestibulum augue ullamcorper. Fusce mollis nisi non nisl cursus, sed vehicula purus pharetra. Donec quis sapien gravida, sollicitudin nisi in, convallis magna. Nam commodo lectus nibh, id vehicula diam molestie eget. Nullam scelerisque euismod mauris, a sagittis quam. Aenean egestas sollicitudin purus eget ullamcorper. Aliquam quis tellus fermentum, blandit lorem nec, consectetur est. Praesent sapien eros, tempor et facilisis in, iaculis a orci. Donec nec ipsum ut tortor condimentum volutpat non eu quam. Vestibulum ut nunc ut erat dignissim ullamcorper.
 				\end{exampleblock}
