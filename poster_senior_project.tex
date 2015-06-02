@@ -1,0 +1,133 @@
+\documentclass[12pt]{beamer}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\usepackage[orientation=portrait]{beamerposter}
+\usepackage{textpos}
+
+\usepackage{fontspec}
+\setsansfont{Futura}
+
+\usetheme{Berlin}      % or try Darmstadt, Madrid, Warsaw, ...
+\usecolortheme{rose} % or try albatross, beaver, crane, ...
+%\usefonttheme{serif}  % or try serif, structurebold, ...
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{caption}[numbered]
+
+
+\renewcommand{\maketitle}{%
+	\begin{center}%
+		\Huge\inserttitle\\[5mm]%
+		\Large\insertauthor\\[5mm]%
+		\Large\insertinstitute%
+	\end{center}%
+	\vspace*{-1ex}%
+}
+
+\geometry{
+  hmargin=2.5cm, % little modification of margins
+}
+
+\setlength{\paperwidth}{24in}
+\setlength{\paperheight}{36in}
+\setlength{\textwidth}{\paperwidth}
+\setlength{\textheight}{0.9\paperheight}
+\setbeamersize{text margin left=0.5cm,text margin right=0.5cm}
+
+% beamer definitions
+
+\makeatletter
+\definecolor{lightblue}{RGB}{33,140,168}
+\definecolor{crimson}{RGB}{218,61,73}
+\definecolor{cream}{RGB}{250, 245, 245}
+\definecolor{clay}{RGB}{207, 190, 180}
+
+\setbeamercolor{normal text}{fg=black,bg=white}
+
+\setbeamercolor{block body}{fg=black, bg=lightblue!20!white}
+\setbeamercolor{block title}{fg=white, bg=lightblue!60!black}
+
+
+\setbeamercolor{alerted text}{fg=crimson}
+
+
+\setbeamercolor{example text}{fg=crimson!50!black}
+\setbeamercolor{block body example}{fg=black, bg=cream!80!gray} 
+\setbeamercolor{block title example}{fg=white, bg=crimson} 
+
+\setbeamercolor{structure}{fg=cream}
+
+\setbeamercolor{background canvas}{bg=cream, parent=normal text}
+\setbeamercolor{background}{parent=background canvas}
+
+\setbeamercolor{palette primary}{fg=cream!40!white,bg=crimson!80!black}
+% \setbeamercolor{palette secondary}{use=structure,fg=structure.fg!100!green}
+% \setbeamercolor{palette tertiary}{use=structure,fg=structure.fg!100!green} 
+
+\makeatother
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{Characterizing Computational Techniques for Experimentally Feasible Non-Local Evolution of Two-Qubit Systems}
+\author{Shankar Balasubramanian\hspace{1em} Didi Chang-Park\hspace{1em} Kyle Herndon\hspace{1em} Zane Rossi}
+\institute{TJHSST Modern Physics and Optics Lab}
+\date{9 June 2015}
+
+\begin{document}
+\centering
+	\begin{frame}{\maketitle}
+		\begin{columns}
+			\begin{column}{.45\textwidth}
+				\begin{exampleblock}{Background}
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id ipsum non justo tincidunt gravida. Maecenas vitae turpis in quam volutpat accumsan. Ut placerat neque at enim ultricies, sit amet vestibulum augue ullamcorper. Fusce mollis nisi non nisl cursus, sed vehicula purus pharetra. Donec quis sapien gravida, sollicitudin nisi in, convallis magna. Nam commodo lectus nibh, id vehicula diam molestie eget. Nullam scelerisque euismod mauris, a sagittis quam. Aenean egestas sollicitudin purus eget ullamcorper. Aliquam quis tellus fermentum, blandit lorem nec, consectetur est. Praesent sapien eros, tempor et facilisis in, iaculis a orci. Donec nec ipsum ut tortor condimentum volutpat non eu quam. Vestibulum ut nunc ut erat dignissim ullamcorper.
+				\end{exampleblock}
+				\vspace{1em}
+				\begin{block}{Ideas}
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id ipsum non justo tincidunt gravida. Maecenas vitae turpis in quam volutpat accumsan. Ut placerat neque at enim ultricies, sit amet vestibulum augue ullamcorper. Fusce mollis nisi non nisl cursus, sed vehicula purus pharetra. Donec quis sapien gravida, sollicitudin nisi in, convallis magna. Nam commodo lectus nibh, id vehicula diam molestie eget. Nullam scelerisque euismod mauris, a sagittis quam. Aenean egestas sollicitudin purus eget ullamcorper. Aliquam quis tellus fermentum, blandit lorem nec, consectetur est. Praesent sapien eros, tempor et facilisis in, iaculis a orci. Donec nec ipsum ut tortor condimentum volutpat non eu quam. Vestibulum ut nunc ut erat dignissim ullamcorper.
+
+					Maecenas mattis cursus turpis non fringilla. Vestibulum vel leo ipsum. Nullam at sem a est commodo commodo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec metus nisi, tempus nec libero nec, accumsan sagittis nunc. Suspendisse ut massa ex. Donec vel arcu sodales, ullamcorper ligula sed, interdum ipsum. Morbi at convallis libero. Sed tincidunt enim ut fringilla pretium. Donec sed rutrum ligula. Nam vitae euismod purus, id tristique mauris. Etiam ultrices eros eu nisl aliquet vestibulum. Duis sit amet sem dictum nunc ullamcorper sodales a nec erat. Integer purus libero, pellentesque at lacinia sed, mollis nec est. In dictum lorem hendrerit nulla pretium placerat. Vestibulum nec elit odio.
+
+					Fusce in cursus erat. Fusce nulla eros, tincidunt vitae gravida id, vehicula eget dolor. Nullam id iaculis quam. Donec varius fringilla neque vitae lobortis. Morbi laoreet leo mi, et auctor odio tristique ac. Aenean egestas, odio sit amet lacinia mattis, quam lorem dignissim tellus, a aliquet massa dolor ac erat. Pellentesque quis tempus eros. Morbi commodo, metus non pulvinar pharetra, lectus augue eleifend justo, at condimentum tellus libero quis eros.
+				\end{block}
+				\vspace{1em}
+				\begin{block}{Experiment}
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id ipsum non justo tincidunt gravida. Maecenas vitae turpis in quam volutpat accumsan. Ut placerat neque at enim ultricies, sit amet vestibulum augue ullamcorper. Fusce mollis nisi non nisl cursus, sed vehicula purus pharetra. Donec quis sapien gravida, sollicitudin nisi in, convallis magna. Nam commodo lectus nibh, id vehicula diam molestie eget. Nullam scelerisque euismod mauris, a sagittis quam. Aenean egestas sollicitudin purus eget ullamcorper. Aliquam quis tellus fermentum, blandit lorem nec, consectetur est. Praesent sapien eros, tempor et facilisis in, iaculis a orci. Donec nec ipsum ut tortor condimentum volutpat non eu quam. Vestibulum ut nunc ut erat dignissim ullamcorper.
+
+					Maecenas mattis cursus turpis non fringilla. Vestibulum vel leo ipsum. Nullam at sem a est commodo commodo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec metus nisi, tempus nec libero nec, accumsan sagittis nunc. Suspendisse ut massa ex. Donec vel arcu sodales, ullamcorper ligula sed, interdum ipsum. Morbi at convallis libero. Sed tincidunt enim ut fringilla pretium. Donec sed rutrum ligula. Nam vitae euismod purus, id tristique mauris. Etiam ultrices eros eu nisl aliquet vestibulum. Duis sit amet sem dictum nunc ullamcorper sodales a nec erat. Integer purus libero, pellentesque at lacinia sed, mollis nec est. In dictum lorem hendrerit nulla pretium placerat. Vestibulum nec elit odio.
+
+					Mauris interdum vel elit et tincidunt. Mauris gravida velit at porttitor tincidunt. Maecenas congue tempus nisl, in lobortis tellus vulputate ut. Integer vitae rutrum nunc, sed posuere orci. Etiam ut urna suscipit, molestie metus vitae, aliquam dui. Vivamus ac justo a purus interdum feugiat vel et diam. Mauris lorem dui, imperdiet nec bibendum vitae, rutrum vel mi. Sed volutpat, nulla vel pellentesque blandit, erat libero porta diam, a sagittis ligula ipsum at nunc. Suspendisse elementum eros bibendum orci fermentum, non hendrerit ex euismod. Suspendisse ac libero fringilla, tempus ligula quis, aliquam lectus. Ut sed mi ac lorem mattis fermentum facilisis ut magna.
+
+					Morbi volutpat imperdiet mauris et pharetra. In nec diam non dolor volutpat laoreet. Quisque at vulputate turpis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec scelerisque consequat velit, non rhoncus lorem maximus vel. Mauris ipsum dolor, dignissim vel ipsum nec, malesuada commodo tortor. Etiam maximus nec odio sed laoreet. Morbi vitae felis ullamcorper, maximus orci ut, aliquet diam.
+
+					Fusce in cursus erat. Fusce nulla eros, tincidunt vitae gravida id, vehicula eget dolor. Nullam id iaculis quam. Donec varius fringilla neque vitae lobortis. Morbi laoreet leo mi, et auctor odio tristique ac. Aenean egestas, odio sit amet lacinia mattis, quam lorem dignissim tellus, a aliquet massa dolor ac erat. Pellentesque quis tempus eros. Morbi commodo, metus non pulvinar pharetra, lectus augue eleifend justo, at condimentum tellus libero quis eros.
+				\end{block}
+			\end{column}
+			\begin{column}{.45\textwidth}
+				\begin{block}{Methods}
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id ipsum non justo tincidunt gravida. Maecenas vitae turpis in quam volutpat accumsan. Ut placerat neque at enim ultricies, sit amet vestibulum augue ullamcorper. Fusce mollis nisi non nisl cursus, sed vehicula purus pharetra. Donec quis sapien gravida, sollicitudin nisi in, convallis magna. Nam commodo lectus nibh, id vehicula diam molestie eget. Nullam scelerisque euismod mauris, a sagittis quam. Aenean egestas sollicitudin purus eget ullamcorper. Aliquam quis tellus fermentum, blandit lorem nec, consectetur est. Praesent sapien eros, tempor et facilisis in, iaculis a orci. Donec nec ipsum ut tortor condimentum volutpat non eu quam. Vestibulum ut nunc ut erat dignissim ullamcorper.
+				\end{block}
+				\vspace{1em}
+				\begin{exampleblock}{Conclusion}
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id ipsum non justo tincidunt gravida. Maecenas vitae turpis in quam volutpat accumsan. Ut placerat neque at enim ultricies, sit amet vestibulum augue ullamcorper. Fusce mollis nisi non nisl cursus, sed vehicula purus pharetra. Donec quis sapien gravida, sollicitudin nisi in, convallis magna. Nam commodo lectus nibh, id vehicula diam molestie eget. Nullam scelerisque euismod mauris, a sagittis quam. Aenean egestas sollicitudin purus eget ullamcorper. Aliquam quis tellus fermentum, blandit lorem nec, consectetur est. Praesent sapien eros, tempor et facilisis in, iaculis a orci. Donec nec ipsum ut tortor condimentum volutpat non eu quam. Vestibulum ut nunc ut erat dignissim ullamcorper.
+				\end{exampleblock}
+				\vspace{1em}
+				\begin{block}{Things}
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id ipsum non justo tincidunt gravida. Maecenas vitae turpis in quam volutpat accumsan. Ut placerat neque at enim ultricies, sit amet vestibulum augue ullamcorper. Fusce mollis nisi non nisl cursus, sed vehicula purus pharetra. Donec quis sapien gravida, sollicitudin nisi in, convallis magna. Nam commodo lectus nibh, id vehicula diam molestie eget. Nullam scelerisque euismod mauris, a sagittis quam. Aenean egestas sollicitudin purus eget ullamcorper. Aliquam quis tellus fermentum, blandit lorem nec, consectetur est. Praesent sapien eros, tempor et facilisis in, iaculis a orci. Donec nec ipsum ut tortor condimentum volutpat non eu quam. Vestibulum ut nunc ut erat dignissim ullamcorper.
+
+					Maecenas mattis cursus turpis non fringilla. Vestibulum vel leo ipsum. Nullam at sem a est commodo commodo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec metus nisi, tempus nec libero nec, accumsan sagittis nunc. Suspendisse ut massa ex. Donec vel arcu sodales, ullamcorper ligula sed, interdum ipsum. Morbi at convallis libero. Sed tincidunt enim ut fringilla pretium. Donec sed rutrum ligula. Nam vitae euismod purus, id tristique mauris. Etiam ultrices eros eu nisl aliquet vestibulum. Duis sit amet sem dictum nunc ullamcorper sodales a nec erat. Integer purus libero, pellentesque at lacinia sed, mollis nec est. In dictum lorem hendrerit nulla pretium placerat. Vestibulum nec elit odio.
+
+					Mauris interdum vel elit et tincidunt. Mauris gravida velit at porttitor tincidunt. Maecenas congue tempus nisl, in lobortis tellus vulputate ut. Integer vitae rutrum nunc, sed posuere orci. Etiam ut urna suscipit, molestie metus vitae, aliquam dui. Vivamus ac justo a purus interdum feugiat vel et diam. Mauris lorem dui, imperdiet nec bibendum vitae, rutrum vel mi. Sed volutpat, nulla vel pellentesque blandit, erat libero porta diam, a sagittis ligula ipsum at nunc. Suspendisse elementum eros bibendum orci fermentum, non hendrerit ex euismod. Suspendisse ac libero fringilla, tempus ligula quis, aliquam lectus. Ut sed mi ac lorem mattis fermentum facilisis ut magna.
+
+					Morbi volutpat imperdiet mauris et pharetra. In nec diam non dolor volutpat laoreet. Quisque at vulputate turpis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec scelerisque consequat velit, non rhoncus lorem maximus vel. Mauris ipsum dolor, dignissim vel ipsum nec, malesuada commodo tortor. Etiam maximus nec odio sed laoreet. Morbi vitae felis ullamcorper, maximus orci ut, aliquet diam.
+
+					Fusce in cursus erat. Fusce nulla eros, tincidunt vitae gravida id, vehicula eget dolor. Nullam id iaculis quam. Donec varius fringilla neque vitae lobortis. Morbi laoreet leo mi, et auctor odio tristique ac. Aenean egestas, odio sit amet lacinia mattis, quam lorem dignissim tellus, a aliquet massa dolor ac erat. Pellentesque quis tempus eros. Morbi commodo, metus non pulvinar pharetra, lectus augue eleifend justo, at condimentum tellus libero quis eros.
+				\end{block}
+			\end{column}
+		\end{columns}
+	\end{frame}
+\centering
+
+\end{document}
