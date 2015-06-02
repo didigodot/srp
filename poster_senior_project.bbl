@@ -1,0 +1,20 @@
+\begin{thebibliography}{1}
+
+\bibitem{bennett}
+C.H. Bennett.
+\newblock Optimal simulation of two-qubit hamiltonians using general local
+  operations.
+\newblock 2008.
+
+\bibitem{bremner}
+Michael~J. Bremner.
+\newblock Practical scheme for quantum computation with any two-qubit
+  entangling gate.
+\newblock {\em Physical Review Letters}, 89(24), 2002.
+
+\bibitem{haselgrove}
+Henry~L. Haselgrove.
+\newblock Practicality of time-optimal two-qubit hamiltonian simulation.
+\newblock {\em Physical Review}, 2003.
+
+\end{thebibliography}
