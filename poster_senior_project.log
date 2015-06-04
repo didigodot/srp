@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014) (preloaded format=xelatex 2014.5.25)  2 JUN 2015 15:47
+This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014) (preloaded format=xelatex 2014.5.25)  4 JUN 2015 09:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -107,8 +107,8 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen126
 \Gm@dimlist=\toks15
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/extsizes/size14.clo
+File: size14.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
 )
 (/Users/Dmitri/Library/texmf/tex/latex/pgf/basiclayer/pgfcore.sty
 (/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
@@ -1558,27 +1558,27 @@ LaTeX Info: Redefining \upshape on input line 2102.
 .................................................
 . fontspec info: "no-scripts"
 . 
-. Font Futura does not contain any OpenType `Script' information.
+. Font Palatino does not contain any OpenType `Script' information.
 .................................................
-\g_fontspec_family_Futura_int=\count321
+\g_fontspec_family_Palatino_int=\count321
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'Futura(0)' created for font 'Futura' with options [].
+. Font family 'Palatino(0)' created for font 'Palatino' with options [].
 . 
 . This font family consists of the following shapes:
 . 
 . * 'normal' with NFSS spec.:
-. <->"Futura/AAT:"
+. <->"Palatino/AAT:"
 . 
 . * 'bold' with NFSS spec.:
-. <->"Futura/B/AAT:"
+. <->"Palatino/B/AAT:"
 . 
 . * 'italic' with NFSS spec.:
-. <->"Futura/I/AAT:"
+. <->"Palatino/I/AAT:"
 . 
 . * 'bold italic' with NFSS spec.:
-. <->"Futura/BI/AAT:"
+. <->"Palatino/BI/AAT:"
 .................................................
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/beamer/themes/theme/beamerthemeBe
@@ -1652,12 +1652,12 @@ LaTeX Font Info:    ... okay on input line 88.
 * \topmargin=-72.26999pt
 * \headheight=14.22636pt
 * \headsep=0.0pt
-* \topskip=12.0pt
+* \topskip=14.0pt
 * \footskip=14.22636pt
 * \marginparwidth=4.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \skip\footins=12.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -1697,41 +1697,46 @@ LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
 (Font)                  OT1/cmss/m/n --> EU1/lmr/m/n on input line 88.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 88.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> EU1/Futura(0)/bx/n on input line 88.
+(Font)                  OT1/cmr/bx/n --> EU1/Palatino(0)/bx/n on input line 88.
+
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> EU1/Futura(0)/bx/n on input line 88.
+(Font)                  OT1/cmr/bx/n --> EU1/Palatino(0)/bx/n on input line 88.
+
 LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 88.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> EU1/Futura(0)/m/n on input line 88.
+(Font)                  OT1/cmss/m/n --> EU1/Palatino(0)/m/n on input line 88.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> EU1/Futura(0)/m/n on input line 88.
+(Font)                  OT1/cmss/bx/n --> EU1/Palatino(0)/m/n on input line 88.
+
 LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 88.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> EU1/Futura(0)/m/it on input line 88.
+(Font)                  OT1/cmr/m/it --> EU1/Palatino(0)/m/it on input line 88.
+
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> EU1/Futura(0)/m/it on input line 88.
+(Font)                  OT1/cmr/bx/it --> EU1/Palatino(0)/m/it on input line 88
+.
 LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 88.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
 (Font)                  OT1/cmtt/m/n --> EU1/lmtt/m/n on input line 88.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> EU1/lmtt/m/n on input line 88.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  EU1/Futura(0)/m/n --> EU1/Futura(0)/bx/n on input line 
-88.
+(Font)                  EU1/Palatino(0)/m/n --> EU1/Palatino(0)/bx/n on input l
+ine 88.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  EU1/Futura(0)/m/it --> EU1/Futura(0)/bx/it on input lin
-e 88.
+(Font)                  EU1/Palatino(0)/m/it --> EU1/Palatino(0)/bx/it on input
+ line 88.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
 (Font)                  OT1/cmss/bx/n --> EU1/lmr/bx/n on input line 88.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  EU1/Futura(0)/bx/n --> EU1/Futura(0)/bx/n on input line
- 88.
+(Font)                  EU1/Palatino(0)/bx/n --> EU1/Palatino(0)/bx/n on input 
+line 88.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  EU1/Futura(0)/m/n --> EU1/Futura(0)/bx/n on input line 
-88.
+(Font)                  EU1/Palatino(0)/m/n --> EU1/Palatino(0)/bx/n on input l
+ine 88.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  EU1/Futura(0)/m/it --> EU1/Futura(0)/bx/it on input lin
-e 88.
+(Font)                  EU1/Palatino(0)/m/it --> EU1/Palatino(0)/bx/it on input
+ line 88.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  EU1/lmtt/m/n --> EU1/lmtt/bx/n on input line 88.
 
@@ -1766,10 +1771,26 @@ Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of spacing.
 Package microtype Info: No adjustment of kerning.
-Package microtype Info: Loading generic settings for font family
-(microtype)             `Futura' (encoding: EU1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/microtype/mt-PalatinoLinotype.cfg
+File: mt-PalatinoLinotype.cfg 2012/03/10 v1.0 microtype config. file: Palatino 
+Linotype and similar fonts (LBD)
+)
+Package microtype Info: Character `Ꜳ' is missing
+(microtype)             in font `\EU1/Palatino(0)/m/n/24.88'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `Ỻ' is missing
+(microtype)             in font `\EU1/Palatino(0)/m/n/24.88'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `ớ' is missing
+(microtype)             in font `\EU1/Palatino(0)/m/n/24.88'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textservicemark ' is missing
+(microtype)             in font `\EU1/Palatino(0)/m/n/24.88'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `‐' is missing
+(microtype)             in font `\EU1/Palatino(0)/m/n/24.88'.
+(microtype)             Ignoring protrusion settings for this character.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/siunitx/config/siunitx-abbreviati
 ons.cfg
@@ -1819,12 +1840,14 @@ LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
 (Font)                  EU1/lmr/m/n --> EU1/lmr/m/n on input line 88.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  EU1/Futura(0)/m/it --> EU1/lmr/m/it on input line 88.
+(Font)                  EU1/Palatino(0)/m/it --> EU1/lmr/m/it on input line 88.
+
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  EU1/Futura(0)/bx/n --> EU1/lmr/bx/n on input line 88.
+(Font)                  EU1/Palatino(0)/bx/n --> EU1/lmr/bx/n on input line 88.
+
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  EU1/Futura(0)/m/n --> EU1/Futura(0)/m/n on input line 8
-8.
+(Font)                  EU1/Palatino(0)/m/n --> EU1/Palatino(0)/m/n on input li
+ne 88.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
 (Font)                  EU1/lmtt/m/n --> EU1/lmtt/m/n on input line 88.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
@@ -1832,14 +1855,20 @@ LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
 (Font)                  EU1/lmr/bx/n --> EU1/lmr/bx/n on input line 88.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  EU1/Futura(0)/bx/it --> EU1/lmr/bx/it on input line 88.
-
+(Font)                  EU1/Palatino(0)/bx/it --> EU1/lmr/bx/it on input line 8
+8.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  EU1/Futura(0)/bx/n --> EU1/Futura(0)/bx/n on input line
- 88.
+(Font)                  EU1/Palatino(0)/bx/n --> EU1/Palatino(0)/bx/n on input 
+line 88.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  EU1/lmtt/bx/n --> EU1/lmtt/bx/n on input line 88.
  (./poster_senior_project.nav)
+Package microtype Info: Character `\textservicemark ' is missing
+(microtype)             in font `\EU1/Palatino(0)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `‐' is missing
+(microtype)             in font `\EU1/Palatino(0)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
 \c__siunitx_mathsf_int=\count323
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/microtype/mt-cmr.cfg
@@ -1857,6 +1886,27 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
+Package microtype Info: Character `\textservicemark ' is missing
+(microtype)             in font `\EU1/Palatino(0)/m/n/20.74'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `‐' is missing
+(microtype)             in font `\EU1/Palatino(0)/m/n/20.74'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textservicemark ' is missing
+(microtype)             in font `\EU1/Palatino(0)/m/n/17.28'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `‐' is missing
+(microtype)             in font `\EU1/Palatino(0)/m/n/17.28'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `‐' is missing
+(microtype)             in font `\EU1/Palatino(0)/m/it/24.88'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `‐' is missing
+(microtype)             in font `\EU1/Palatino(0)/m/it/20.74'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `‐' is missing
+(microtype)             in font `\EU1/Palatino(0)/m/it/17.28'.
+(microtype)             Ignoring protrusion settings for this character.
 \c__siunitx_mathtt_int=\count324
 LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 88.
 
@@ -1868,17 +1918,105 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmtt' (encoding: EU1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for U+dsrom on input line 207.
+Package microtype Info: Character `\textservicemark ' is missing
+(microtype)             in font `\EU1/Palatino(0)/bx/n/24.88'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `‐' is missing
+(microtype)             in font `\EU1/Palatino(0)/bx/n/24.88'.
+(microtype)             Ignoring protrusion settings for this character.
+File: cp1.png Graphic file (type QTm)
+
+<use  "cp1.png" >
+Package microtype Info: Character `\textservicemark ' is missing
+(microtype)             in font `\EU1/Palatino(0)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `‐' is missing
+(microtype)             in font `\EU1/Palatino(0)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `‐' is missing
+(microtype)             in font `\EU1/Palatino(0)/m/it/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `‐' is missing
+(microtype)             in font `\EU1/Palatino(0)/m/it/12'.
+(microtype)             Ignoring protrusion settings for this character.
+File: cp2.png Graphic file (type QTm)
+ <use  "cp2.png" >
+File: thing.png Graphic file (type QTm)
+ <use  "thing.png" >
+File: g1.png Graphic file (type QTm)
+ <use  "g1.png" >
+File: g2.png Graphic file (type QTm)
+
+<use  "g2.png" >
+File: code.png Graphic file (type QTm)
+ <use  "code.png" >
+Package microtype Info: Character `\textservicemark ' is missing
+(microtype)             in font `\EU1/Palatino(0)/m/n/35.83'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `‐' is missing
+(microtype)             in font `\EU1/Palatino(0)/m/n/35.83'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textservicemark ' is missing
+(microtype)             in font `\EU1/Palatino(0)/m/n/61.92'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `‐' is missing
+(microtype)             in font `\EU1/Palatino(0)/m/n/61.92'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textservicemark ' is missing
+(microtype)             in font `\EU1/Palatino(0)/m/n/4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `‐' is missing
+(microtype)             in font `\EU1/Palatino(0)/m/n/4'.
+(microtype)             Ignoring protrusion settings for this character.
+ [1
+
+]
+LaTeX Font Info:    Try loading font information for U+dsrom on input line 319.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/doublestroke/Udsrom.fd
 File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
 )
-File: efficiency_plot.png Graphic file (type QTm)
+Package microtype Info: Character `\textservicemark ' is missing
+(microtype)             in font `\EU1/Palatino(0)/m/n/29.86'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `‐' is missing
+(microtype)             in font `\EU1/Palatino(0)/m/n/29.86'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Calculating math sizes for size <29.86> on input line 319.
+Package microtype Info: Character `\textservicemark ' is missing
+(microtype)             in font `\EU1/Palatino(0)/m/n/20.9019'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `‐' is missing
+(microtype)             in font `\EU1/Palatino(0)/m/n/20.9019'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textservicemark ' is missing
+(microtype)             in font `\EU1/Palatino(0)/m/n/14.93'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `‐' is missing
+(microtype)             in font `\EU1/Palatino(0)/m/n/14.93'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `‐' is missing
+(microtype)             in font `\EU1/Palatino(0)/m/it/29.86'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `‐' is missing
+(microtype)             in font `\EU1/Palatino(0)/m/it/20.9019'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `‐' is missing
+(microtype)             in font `\EU1/Palatino(0)/m/it/14.93'.
+(microtype)             Ignoring protrusion settings for this character.
 
-<use  "efficiency_plot.png" > [1
 
-] (./poster_senior_project.bbl) [2
+LaTeX Font Warning: Font shape `EU1/Palatino(0)/m/sc' undefined
+(Font)              using `EU1/Palatino(0)/m/n' instead on input line 319.
+
+Package microtype Info: Character `\textservicemark ' is missing
+(microtype)             in font `\EU1/Palatino(0)/m/sc/24.88'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `‐' is missing
+(microtype)             in font `\EU1/Palatino(0)/m/sc/24.88'.
+(microtype)             Ignoring protrusion settings for this character.
+(./poster_senior_project.bbl) [2
 
 ]
 \tf@nav=\write6
@@ -1890,21 +2028,24 @@ File: efficiency_plot.png Graphic file (type QTm)
 \tf@snm=\write8
 \openout8 = `poster_senior_project.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 234.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 234.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 323.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 323.
+ (./poster_senior_project.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 323.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 323.
 
-(./poster_senior_project.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 234.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 234.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 234.
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 323.
  ) 
 Here is how much of TeX's memory you used:
- 39412 strings out of 493734
- 799751 string characters out of 6146348
- 919285 words of memory out of 5000000
- 42046 multiletter control sequences out of 15000+600000
- 12779 words of font info for 84 fonts, out of 8000000 for 9000
+ 39684 strings out of 493734
+ 807777 string characters out of 6146348
+ 1008615 words of memory out of 5000000
+ 42297 multiletter control sequences out of 15000+600000
+ 17616 words of font info for 116 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 56i,15n,102p,10408b,1160s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,15n,111p,10408b,1301s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on poster_senior_project.pdf (2 pages).
