@@ -17,4 +17,15 @@ Henry~L. Haselgrove.
 \newblock Practicality of time-optimal two-qubit hamiltonian simulation.
 \newblock {\em Physical Review}, 2003.
 
+\bibitem{satsangi}
+Swanti Satsangi.
+\newblock Application of genetic algorithms for evolution of quantum
+  equivalents of boolean circuits.
+\newblock {\em World Academy of Science, Engineering and Technology}, 6, 2012.
+
+\bibitem{weise}
+Thomas Weise.
+\newblock {\em Global Optimization Algorithms: Theory and Application}.
+\newblock 2009.
+
 \end{thebibliography}
