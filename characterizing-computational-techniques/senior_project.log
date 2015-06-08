@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  8 JUN 2015 01:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  8 JUN 2015 09:55
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1181,7 +1181,7 @@ Underfull \hbox (badness 1142) in paragraph at lines 32--35
 Here is how much of TeX's memory you used:
  24038 strings out of 493117
  494871 string characters out of 6135433
- 544080 words of memory out of 5000000
+ 544081 words of memory out of 5000000
  26962 multiletter control sequences out of 15000+600000
  29928 words of font info for 177 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1214,7 +1214,7 @@ m/cmsy9.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmti10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/doublestroke/
 dsrom10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/sym
 bols/msbm10.pfb>
-Output written on senior_project.pdf (10 pages, 1869699 bytes).
+Output written on senior_project.pdf (10 pages, 1869649 bytes).
 PDF statistics:
  163 PDF objects out of 1000 (max. 8388607)
  109 compressed objects within 2 object streams
