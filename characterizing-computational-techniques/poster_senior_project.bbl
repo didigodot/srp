@@ -23,6 +23,11 @@ Henry~L. Haselgrove.
 \newblock Practicality of time-optimal two-qubit hamiltonian simulation.
 \newblock {\em Physical Review}, 2003.
 
+\bibitem{oliviera}
+M.S.R. Oliviera.
+\newblock A probabilistic cnot gate for coherent state qubits.
+\newblock {\em Physics Letters A}, 377(39):2821--2825, November 2013.
+
 \bibitem{umbarkar}
 A.J. Umbarkar.
 \newblock Multithreaded parallel dual population genetic algorithm (mpdpga) for
